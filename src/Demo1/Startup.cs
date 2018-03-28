@@ -26,7 +26,6 @@ namespace SimpleBridgeDemo
             services.AddMvc();
             services.AddOptions();
             services.Configure<MyAppSettings>(Configuration.GetSection("MyAppSettings"));
-            services.AddTransient<MyAppSettings>((opt) => opt.GetService<IOptionsSnapshot<MyAppSettings>>().Value);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

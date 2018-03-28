@@ -1,0 +1,12 @@
+﻿@using AdvancedBridgeDemo.Configuration
+@model IMyAppSettings
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    My Application Name is : @Model.ApplicationName
+</div>
+<div>
+    The count of items allowed is : @Model.CountOfItems
+</div>

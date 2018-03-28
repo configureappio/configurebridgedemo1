@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedBridgeDemo", "AdvancedBridgeDemo\AdvancedBridgeDemo.csproj", "{3894C500-C2EC-4AE7-BF9E-8931D18A964F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedBridgeDemo.Configuration", "AdvancedBridgeDemo.Configuration\AdvancedBridgeDemo.Configuration.csproj", "{4EFC7C6B-597B-4518-8F7F-52BF95C9937C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3894C500-C2EC-4AE7-BF9E-8931D18A964F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3894C500-C2EC-4AE7-BF9E-8931D18A964F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3894C500-C2EC-4AE7-BF9E-8931D18A964F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3894C500-C2EC-4AE7-BF9E-8931D18A964F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EFC7C6B-597B-4518-8F7F-52BF95C9937C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFC7C6B-597B-4518-8F7F-52BF95C9937C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFC7C6B-597B-4518-8F7F-52BF95C9937C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFC7C6B-597B-4518-8F7F-52BF95C9937C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E700C2AF-22F9-49DC-85A5-0FC31927D79E}
+	EndGlobalSection
+EndGlobal

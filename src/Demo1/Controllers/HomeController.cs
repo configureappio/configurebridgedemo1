@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 using SimpleBridgeDemo.Models;
 
 namespace SimpleBridgeDemo.Controllers
@@ -12,9 +13,9 @@ namespace SimpleBridgeDemo.Controllers
     {
         private readonly MyAppSettings _settings;
 
-        public HomeController(MyAppSettings settings)
+        public HomeController(IOptionsSnapshot<MyAppSettings> settings)
         {
-            _settings = settings ?? throw new ArgumentNullException(nameof(settings));
+            _settings = settings?.Value ?? throw new ArgumentNullException(nameof(settings));
         }
         public IActionResult Index()
         {
